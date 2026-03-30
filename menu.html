@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Carte — Le Cafe Numerique</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .grille-menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .carte-boisson {
+      background: white;
+      border: 1px solid #DDD;
+      border-radius: 8px;
+      padding: 1.5rem;
+      border-top: 4px solid var(--couleur-secondaire);
+    }
+    .carte-boisson h3 {
+      color: var(--couleur-principale);
+      margin-bottom: 0.5rem;
+    }
+    .prix {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: var(--couleur-secondaire);
+      margin-top: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <span class="logo">Le Cafe Numerique</span>
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="menu.html">La Carte</a></li>
+    <li><a href="apropos.html">A propos</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<section>
+  <h2>Notre Carte</h2>
+  <div class="grille-menu">
+
+    <div class="carte-boisson">
+      <h3>Espresso</h3>
+      <p>Un cafe court et intense.</p>
+      <p class="prix">1 500 FCFA</p>
+    </div>
+
+    <div class="carte-boisson">
+      <h3>Cappuccino</h3>
+      <p>Un melange parfait cafe + lait.</p>
+      <p class="prix">2 000 FCFA</p>
+    </div>
+
+    <div class="carte-boisson">
+      <h3>The vert</h3>
+      <p>Boisson relaxante.</p>
+      <p class="prix">1 800 FCFA</p>
+    </div>
+
+    <div class="carte-boisson">
+      <h3>Chocolat chaud</h3>
+      <p>Onctueux et doux.</p>
+      <p class="prix">2 200 FCFA</p>
+    </div>
+
+    <div class="carte-boisson">
+      <h3>Jus de gingembre</h3>
+      <p>Naturel et energisant.</p>
+      <p class="prix">1 500 FCFA</p>
+    </div>
+
+    <div class="carte-boisson">
+      <h3>Smoothie</h3>
+      <p>Fruits tropicaux.</p>
+      <p class="prix">2 500 FCFA</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Le Cafe Numerique</p>
+</footer>
+
+</body>
+</html>
